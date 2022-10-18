@@ -32,7 +32,7 @@ function BtnPrimary({ title, titleReset }) {
   const handleClick = () => {
     setNum(randomNumberInRange(1, 10));
     setOption1(randomNumber1(1,10))
-    setOption2(randomNumber1(1,10))
+    setOption2(randomNumber2(1,10))
   };
 
   const callMySound = (src) => {
