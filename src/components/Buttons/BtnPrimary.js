@@ -51,7 +51,7 @@ function BtnPrimary({ title, titleReset }) {
         <h3>Options are:</h3>  
       <ul className="lists">
         <li className="list" onClick={() => callMySound(gameOver)}>{option1}</li>  
-        <li className="list" onClick={() => callMySound(congratulation)}>{num}</li>  
+        <li className="list btnColor" onClick={() => callMySound(congratulation)}>{num}</li>  
         <li className="list" onClick={() => callMySound(gameOver)}>{option2}</li>  
       </ul>
 

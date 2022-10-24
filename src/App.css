@@ -62,3 +62,7 @@
   padding: .3rem;
   margin-top: .5rem;
 }
+
+.btnColor:active{
+  background-color: green;
+}
